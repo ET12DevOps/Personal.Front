@@ -46,6 +46,9 @@ btnGuardarEmpleado.addEventListener("click", (e) => {
                 alert(error)
             })
         actualizarEmpleados()
+        nombreEmpleado.value = ''
+        apellidoEmpleado.value = ''
+        tarjetaEmpleado.value = ''
     } else {
         alert('Verificar campos empleado')
     }
@@ -67,6 +70,7 @@ btnGuardarAcceso.addEventListener("click", (e) => {
             .catch(function (error) {
                 alert(error)
             })
+        accesoEmpleado.value = ''
     } else {
         alert('La tarjeta no es correcta')
     }
