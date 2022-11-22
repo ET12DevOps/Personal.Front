@@ -1,5 +1,5 @@
 //let baseUrl = "http://localhost:5221"
-let baseUrl = "http://api-personal.up.railway.app"
+let baseUrl = "https://api-personal.up.railway.app"
 
 document.addEventListener("DOMContentLoaded", () => {
     actualizarEmpleados()
